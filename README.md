@@ -9,7 +9,3 @@ Featuring problems from LeetCode and Kattis that I solved in one or multiple way
 ## Projects
 
 Featuring projects of my own. While the problems are meant to illustrate the code I write on a micro-level, these projects will hopefully attest to my competence on the macro-level, working towards a larger goal while maintaining more code.
-
-## Writing
-
-Featuring technical writing about my work, books I read and lectures I watch, mostly pertaining to the structure and design of code. Notes are written in Swedish.
