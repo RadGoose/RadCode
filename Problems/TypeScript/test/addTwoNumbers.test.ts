@@ -7,7 +7,8 @@ describe("addTwoNumbers", () => {
         expect(addTwoNumbers(null, null)).to.equal(null)
     })
     it("should return a ListNode(0, null) when arguments l1 and l2 are ListNode(0, null)", () => {
-        const emptyListNode = new ListNode(0, null);
-        expect(addTwoNumbers(emptyListNode, emptyListNode)).to.equal(emptyListNode)
+        const emptyListNode = new ListNode(0);
+        expect(addTwoNumbers(emptyListNode, emptyListNode).val).to.equal(0)
+        expect(addTwoNumbers(emptyListNode, emptyListNode).next).to.equal(null)
     })
 })
