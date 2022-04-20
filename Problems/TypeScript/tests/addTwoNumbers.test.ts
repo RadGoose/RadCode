@@ -11,11 +11,11 @@ const NEXT_DEFINED = new ListNode(0, VAL_6);
 
 describe("addTwoNumbers", () => {
   it("should return null when inputs are null", () => {
-    expect(addTwoNumbers(null, null)).to.equal(null);
+    expect(addTwoNumbers(null, null)).to.be.null;
   });
   it("should return a ListNode(0, null) when arguments l1 and l2 are ListNode(0, null)", () => {
     expect(addTwoNumbers(EMPTY_NODE, EMPTY_NODE).val).to.equal(0);
-    expect(addTwoNumbers(EMPTY_NODE, EMPTY_NODE).next).to.equal(null);
+    expect(addTwoNumbers(EMPTY_NODE, EMPTY_NODE).next).to.be.null;
   });
   it("should return ListNode(l1.val + l2.val) when 0 <= arguments values <= 9", () => {
     expect(addTwoNumbers(VAL_1, VAL_1).val).to.equal(2 * VAL_1.val);
@@ -33,7 +33,7 @@ describe("addTwoNumbers", () => {
 
 describe("getNodeVal", () => {
   it("should return number if ListNode exists", () => {
-    expect(getNodeVal(null)).to.equal(null);
+    expect(getNodeVal(null)).to.be.null;
   });
   it("should return ListNode.val if input is not null", () => {
     expect(getNodeVal(EMPTY_NODE)).to.equal(0);
@@ -42,10 +42,10 @@ describe("getNodeVal", () => {
 
 describe("getNextNode", () => {
   it("should return null if argument is null", () => {
-    expect(getNextNode(null)).to.equal(null);
+    expect(getNextNode(null)).to.be.null;
   });
   it("should return null if ListNode.next is null", () => {
-    expect(getNextNode(EMPTY_NODE)).to.equal(null);
+    expect(getNextNode(EMPTY_NODE)).to.be.null;
   });
   it("should return ListNode.next if ListNode.next is defined", () => {
     expect(getNextNode(VAL_1)).to.equal(VAL_1.next);
