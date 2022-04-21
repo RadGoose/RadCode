@@ -1,8 +1,10 @@
 import { expect } from "chai";
 import { ListNode } from "../src/AddTwoNumbers/listNodeClass";
-import { addTwoNumbers } from "../src/AddTwoNumbers/solution";
-import { getNodeVal } from "../src/AddTwoNumbers/solution";
-import { getNextNode } from "../src/AddTwoNumbers/solution";
+import {
+  addTwoNumbers,
+  getNextNode,
+  getNodeVal,
+} from "../src/AddTwoNumbers/solution";
 
 const EMPTY_NODE = new ListNode(0);
 const VAL_1 = new ListNode(1, EMPTY_NODE);
