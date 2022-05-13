@@ -4,7 +4,7 @@ export function longestPalindrome(s: string): string {
 
   let longest = "";
 
-  for (let i = 1; i < s.length - 1; i++) {
+  for (let i = 0; i < s.length - 1; i++) {
     let odd = expandPalindromeByIndices(s, i, i);
     let even = expandPalindromeByIndices(s, i, i + 1);
     if (odd.length > longest.length) longest = odd;
