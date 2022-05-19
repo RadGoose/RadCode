@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/Users/eliasferlander/Documents/GitHub/RadCode/Problems/C++/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIC -std=gnu++11 -o CMakeFiles/Example.dir/Example.cpp.o -c /Users/eliasferlander/Documents/GitHub/RadCode/Problems/C++/Example.cpp",
+  "file": "/Users/eliasferlander/Documents/GitHub/RadCode/Problems/C++/Example.cpp"
+},
+{
+  "directory": "/Users/eliasferlander/Documents/GitHub/RadCode/Problems/C++/build/googletest/googlemock",
+  "command": "/usr/bin/clang++  -I/Users/eliasferlander/Documents/GitHub/RadCode/Problems/C++/googletest/googlemock/include -I/Users/eliasferlander/Documents/GitHub/RadCode/Problems/C++/googletest/googlemock -isystem /Users/eliasferlander/Documents/GitHub/RadCode/Problems/C++/googletest/googletest/include -isystem /Users/eliasferlander/Documents/GitHub/RadCode/Problems/C++/googletest/googletest -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIC  -DGTEST_HAS_PTHREAD=1   -std=c++11 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /Users/eliasferlander/Documents/GitHub/RadCode/Problems/C++/googletest/googlemock/src/gmock-all.cc",
+  "file": "/Users/eliasferlander/Documents/GitHub/RadCode/Problems/C++/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/Users/eliasferlander/Documents/GitHub/RadCode/Problems/C++/build/googletest/googlemock",
+  "command": "/usr/bin/clang++  -isystem /Users/eliasferlander/Documents/GitHub/RadCode/Problems/C++/googletest/googlemock/include -isystem /Users/eliasferlander/Documents/GitHub/RadCode/Problems/C++/googletest/googlemock -isystem /Users/eliasferlander/Documents/GitHub/RadCode/Problems/C++/googletest/googletest/include -isystem /Users/eliasferlander/Documents/GitHub/RadCode/Problems/C++/googletest/googletest -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIC  -DGTEST_HAS_PTHREAD=1   -std=c++11 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /Users/eliasferlander/Documents/GitHub/RadCode/Problems/C++/googletest/googlemock/src/gmock_main.cc",
+  "file": "/Users/eliasferlander/Documents/GitHub/RadCode/Problems/C++/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/Users/eliasferlander/Documents/GitHub/RadCode/Problems/C++/build/googletest/googletest",
+  "command": "/usr/bin/clang++  -I/Users/eliasferlander/Documents/GitHub/RadCode/Problems/C++/googletest/googletest/include -I/Users/eliasferlander/Documents/GitHub/RadCode/Problems/C++/googletest/googletest -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIC  -DGTEST_HAS_PTHREAD=1   -std=c++11 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /Users/eliasferlander/Documents/GitHub/RadCode/Problems/C++/googletest/googletest/src/gtest-all.cc",
+  "file": "/Users/eliasferlander/Documents/GitHub/RadCode/Problems/C++/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/Users/eliasferlander/Documents/GitHub/RadCode/Problems/C++/build/googletest/googletest",
+  "command": "/usr/bin/clang++  -isystem /Users/eliasferlander/Documents/GitHub/RadCode/Problems/C++/googletest/googletest/include -isystem /Users/eliasferlander/Documents/GitHub/RadCode/Problems/C++/googletest/googletest -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIC  -DGTEST_HAS_PTHREAD=1   -std=c++11 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /Users/eliasferlander/Documents/GitHub/RadCode/Problems/C++/googletest/googletest/src/gtest_main.cc",
+  "file": "/Users/eliasferlander/Documents/GitHub/RadCode/Problems/C++/googletest/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/Users/eliasferlander/Documents/GitHub/RadCode/Problems/C++/build/test",
+  "command": "/usr/bin/clang++  -isystem /Users/eliasferlander/Documents/GitHub/RadCode/Problems/C++/googletest/googletest/include -isystem /Users/eliasferlander/Documents/GitHub/RadCode/Problems/C++/googletest/googletest -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIE -std=gnu++11 -o CMakeFiles/ExampleTests.dir/ExampleTests.cpp.o -c /Users/eliasferlander/Documents/GitHub/RadCode/Problems/C++/test/ExampleTests.cpp",
+  "file": "/Users/eliasferlander/Documents/GitHub/RadCode/Problems/C++/test/ExampleTests.cpp"
+}
+]
