@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20220519-1545-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.23.1"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="macOS"
+	Hostname="Eliass-MacBook-Pro.local"
+	OSRelease="12.3.1"
+	OSVersion="21E258"
+	OSPlatform="arm64"
+	Is64Bits="1"
+	VendorString="IBM"
+	VendorID="IBM"
+	FamilyID="16777228"
+	ModelID="2"
+	ProcessorCacheSize="131072"
+	NumberOfLogicalCPU="10"
+	NumberOfPhysicalCPU="10"
+	TotalVirtualMemory="0"
+	TotalPhysicalMemory="65536"
+	LogicalProcessorsPerPhysical="10"
+	ProcessorClockFrequency="0"
+	>
+	<Testing>
+		<StartDateTime>May 19 17:51 CEST</StartDateTime>
+		<StartTestTime>1652975499</StartTestTime>
+		<TestList>
+			<Test>./test/ExampleTests</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>ExampleTests</Name>
+			<Path>./test</Path>
+			<FullName>./test/ExampleTests</FullName>
+			<FullCommandLine>/Users/eliasferlander/Documents/GitHub/RadCode/Problems/C++/build/test/ExampleTests</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.00245942</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/Users/eliasferlander/Documents/GitHub/RadCode/Problems/C++/build/test/ExampleTests</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNUEFqw0AMvPsVOsYEe9sH9FDi4EJpG5zmZEyRbcUs7K7Cat32+c3WIcSFguc0SCNpNNXonHYDWNRulcLRswV1EPKiyGiUI3mDrievCu5GSy6IKnV4GltVYb/hntTOc2vIitqs12pgHgwFknBLxXdqiOwj3sm7Lqkfrmigupi4h6iZTFy4jDpQntTZFQ2Uhls0U5/cp/bsojEQCtl4+iO+3bn9Rnsy9H4uSFJDdXiFXzSzTl6QZSfBY6AyVl6w8xwHJrw9LxuA1R1YSZfZmcQQOKBJk2X/BkKf9fzl5mn+lyJ4dPn8zvml3eN+vy1iBpM2T34APvmsoQ==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>May 19 17:51 CEST</EndDateTime>
+		<EndTestTime>1652975499</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

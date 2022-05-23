@@ -280,9 +280,9 @@ googletest/googletest/CMakeFiles/gtest_main.dir/clean:
 # Target rules for target test/CMakeFiles/ExampleTests.dir
 
 # All Build rule for target.
+test/CMakeFiles/ExampleTests.dir/all: CMakeFiles/Example.dir/all
 test/CMakeFiles/ExampleTests.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
 test/CMakeFiles/ExampleTests.dir/all: googletest/googletest/CMakeFiles/gtest_main.dir/all
-test/CMakeFiles/ExampleTests.dir/all: CMakeFiles/Example.dir/all
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/ExampleTests.dir/build.make test/CMakeFiles/ExampleTests.dir/depend
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/ExampleTests.dir/build.make test/CMakeFiles/ExampleTests.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/eliasferlander/Documents/GitHub/RadCode/Problems/C++/build/CMakeFiles --progress-num=3,4 "Built target ExampleTests"
